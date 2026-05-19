@@ -106,9 +106,9 @@
     .badge-teal { background: #E1F5EE; color: #0F6E56; }
     .badge-purple { background: #F3EEFB; color: #5A2DA3; }
     
-    .content p { font-size: 15px; color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 0.5rem; }
-    .content ul { padding-left: 1.4rem; margin-top: 0.5rem; }
-    .content li { font-size: 15px; color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 8px; }
+    .content p { font-size: 15px; color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 0.75rem; text-align: justify; }
+    .content ul { padding-left: 1.4rem; margin-top: 0.5rem; margin-bottom: 0.75rem;}
+    .content li { font-size: 15px; color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 8px; text-align: justify;}
     .content strong { color: var(--color-text-primary); font-weight: 600; }
 
     .author-grid { 
@@ -199,356 +199,250 @@
     .data-stat .val { font-size: 24px; font-weight: 700; color: #2653A3; }
     .data-stat .lbl { font-size: 12px; font-weight: 500; color: var(--color-text-secondary); margin-top: 4px; line-height: 1.3; }
 
-    .tip-box, .warn-box {
-      border-radius: var(--border-radius-md);
-      padding: 1rem; 
-      margin: 1rem 0;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+    .action-text {
+      color: #0F6E56;
+      font-weight: 600;
+      font-size: 13px;
+      margin-bottom: 8px;
+      display: block;
+      background-color: #E1F5EE;
+      padding: 6px 10px;
+      border-radius: 6px;
+      border-left: 3px solid #0F6E56;
     }
-    .tip-box {
-      background: #E1F5EE; 
-      border-left: 4px solid #0F6E56;
-    }
-    .tip-box p { font-size: 14px; color: #0F6E56; line-height: 1.6; font-weight: 500;}
-    
-    .warn-box {
-      background: #FAEEDA; 
-      border-left: 4px solid #854F0B;
-    }
-    .warn-box p { font-size: 14px; color: #854F0B; line-height: 1.6; font-weight: 500;}
 
     .divider { height: 1px; background: var(--color-border-tertiary); margin: 1.5rem 0; }
-
-    .section-label {
-      font-size: 14px; font-weight: 600; color: var(--color-text-secondary); margin: 16px 0 8px;
-    }
+    .section-label { font-size: 14px; font-weight: 600; color: var(--color-text-secondary); margin: 16px 0 8px; text-transform: uppercase; letter-spacing: 0.5px;}
   </style>
 </head>
 <body>
 
 <div class="container">
   <div class="header">
-    <h1>Guía de defensa — Creencias Parentales e Individuación</h1>
-    <p>U.E.P. Gral. José Laurencio Silva · Trabajo de Grado 2025-2026</p>
+    <h1>Guía Coreográfica de Defensa — Creencias Parentales e Individuación</h1>
+    <p>U.E.P. Gral. José Laurencio Silva · Formato "Ensayo Continuo" sin redundancias</p>
   </div>
 
   <div class="tabs-wrapper">
     <div class="tabs">
-      <div class="tab active" onclick="showSection('resumen')">Resumen general</div>
-      <div class="tab" onclick="showSection('autores')">Por autor (7)</div>
+      <div class="tab active" onclick="showSection('autores')">Guion Exacto por Autor (7)</div>
       <div class="tab" onclick="showSection('preguntas')">Preguntas del jurado</div>
       <div class="tab" onclick="showSection('datos')">Datos clave</div>
-      <div class="tab" onclick="showSection('consejos')">Consejos de defensa</div>
     </div>
   </div>
 
-  <div id="resumen" class="section active">
-    <div class="card">
-      <div class="card-title"><span class="badge badge-blue">Tema central</span></div>
-      <div class="content">
-        <p>La investigación analiza la <strong>influencia de las creencias parentales en el proceso de individuación</strong> de los adolescentes de la U.E.P. General José Laurencio Silva, Maracaibo, Estado Zulia, durante el año escolar 2025–2026.</p>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-title">Estructura de la tesis</div>
-      <div class="content">
-        <ul>
-          <li><strong>Capítulo I:</strong> Planteamiento del problema, objetivos, justificación y delimitación.</li>
-          <li><strong>Capítulo II:</strong> Marco teórico — antecedentes, bases teóricas, bases legales y sistema de variables.</li>
-          <li><strong>Capítulo III:</strong> Marco metodológico — enfoque, tipo, diseño, población, muestra, instrumento, validez y técnicas de análisis.</li>
-          <li><strong>Capítulo IV:</strong> Análisis e interpretación de resultados — tablas y gráficos por dimensión.</li>
-          <li><strong>Capítulo V:</strong> Conclusiones y recomendaciones.</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-title">Objetivos específicos <span class="badge badge-teal">memorizar</span></div>
-      <div class="content">
-        <ul>
-          <li>Identificar las <strong>creencias parentales predominantes</strong> en los representantes de los estudiantes.</li>
-          <li>Describir el <strong>nivel de desarrollo del proceso de individuación</strong> (autonomía emocional, identidad, independencia funcional y vínculo parental) en los adolescentes.</li>
-          <li>Determinar la <strong>influencia de las creencias parentales</strong> sobre el desarrollo de la individuación.</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-title">Hallazgo principal</div>
-      <div class="content">
-        <p>Las creencias parentales favorecedoras de la <strong>Autonomía Parental</strong> (M=3,39, la más alta de la Sección A) se corresponden con los mayores avances en el proceso de individuación: la dimensión <strong>Identidad</strong> alcanzó M=3,96 y la <strong>Independencia Funcional</strong> M=3,74 —ambas en nivel alto—. La <strong>Autonomía Emocional</strong> es el componente menos desarrollado (M=3,36), lo cual es evolutivamente coherente.</p>
-      </div>
-    </div>
-  </div>
-
-  <div id="autores" class="section">
-    <p style="font-size: 14px; color: var(--color-text-secondary); margin-bottom: 1rem;">Selecciona tu nombre para ver tu tema asignado y lo que debes dominar para la defensa.</p>
+  <div id="autores" class="section active">
+    <p style="font-size: 14px; color: var(--color-text-secondary); margin-bottom: 1rem;">Selecciona tu nombre. El guion está diseñado para que la defensa fluya como un solo discurso continuo. <strong>Solo Zuriel dice "Buenos días".</strong></p>
+    
     <div class="author-grid">
       <div class="author-card" onclick="showAuthor('zuriel')">
-        <div class="name">Zuriel Galicia</div>
-        <div class="role">Cap I · Planteamiento y Justificación</div>
-        <div class="ci">C.I. 33.384.482</div>
+        <div class="name">1. Zuriel</div>
+        <div class="role">Apertura y Planteamiento</div>
       </div>
       <div class="author-card" onclick="showAuthor('maria')">
-        <div class="name">María Castellano</div>
-        <div class="role">Cap II · Bases Teóricas y Autores</div>
-        <div class="ci">C.I. 32.891.402</div>
+        <div class="name">2. María</div>
+        <div class="role">Bases Teóricas</div>
       </div>
       <div class="author-card" onclick="showAuthor('marco')">
-        <div class="name">Marco Castellano</div>
-        <div class="role">Cap II · Bases Legales y Variables</div>
-        <div class="ci">C.I. 34.423.184</div>
+        <div class="name">3. Marco</div>
+        <div class="role">Bases Legales y Variables</div>
       </div>
       <div class="author-card" onclick="showAuthor('moises')">
-        <div class="name">Moisés Ospino</div>
-        <div class="role">Cap III · Enfoque y Muestra</div>
-        <div class="ci">C.I. 34.278.956</div>
+        <div class="name">4. Moisés</div>
+        <div class="role">Enfoque y Muestra</div>
       </div>
       <div class="author-card" onclick="showAuthor('juan')">
-        <div class="name">Juan Layet</div>
-        <div class="role">Cap III · Instrumento y Validez</div>
-        <div class="ci">C.I. 36.355.756</div>
+        <div class="name">5. Juan</div>
+        <div class="role">Instrumento y Validez</div>
       </div>
       <div class="author-card" onclick="showAuthor('jesus')">
-        <div class="name">Jesús Ferreira</div>
-        <div class="role">Cap IV · Resultados Representantes</div>
-        <div class="ci">C.I. 36.462.192</div>
+        <div class="name">6. Jesús</div>
+        <div class="role">Resultados Representantes</div>
       </div>
       <div class="author-card" onclick="showAuthor('diego')">
-        <div class="name">Diego Fuenmayor</div>
-        <div class="role">Cap IV · Resultados Estudiantes y Cap V</div>
-        <div class="ci">C.I. 33.532.391</div>
+        <div class="name">7. Diego</div>
+        <div class="role">Resultados Estudiantes y Cierre</div>
       </div>
     </div>
 
     <div id="author-zuriel" class="author-content">
       <div class="topic-block" style="border-color: #7F77DD;">
-        <h3>Zuriel — Capítulo I: Planteamiento y justificación</h3>
-        <p>Eres la encargada de <strong>abrir la defensa</strong>. Explicas por qué existe este problema, a quién afecta y por qué vale la pena investigarlo.</p>
+        <h3>1. Zuriel Galicia — Apertura y Capítulo I (Planteamiento)</h3>
+        <p>Responsabilidad: <strong>Atrapar al jurado</strong>. Eres la única que saluda y presenta el título. Marcas el nivel de elegancia del grupo.</p>
       </div>
       <div class="card">
-        <div class="card-title">Conceptos que debes dominar al hablar</div>
+        <div class="card-title">Guion Exacto de Defensa</div>
         <div class="content">
-          <ul>
-            <li><strong>El proceso de individuación:</strong> Es el mecanismo psicológico por el cual el joven construye su propio yo, se distingue de sus padres y asume compromisos personales de valores, intereses y proyectos de vida propios.</li>
-            <li><strong>El contexto de nuestra institución:</strong> Los estudiantes de 5to año muestran dificultades en toma de decisiones autónomas. Por otro lado, algunos representantes expresan creencias restrictivas ("mi hijo todavía no está listo para eso", "yo sé lo que es mejor para él") debido al miedo o la sobreprotección.</li>
-            <li><strong>La justificación de la tesis:</strong>
-              <br>- <em>Teórica:</em> Aporta datos empíricos sobre variables psicológicas poco estudiadas en Venezuela.
-              <br>- <em>Práctica:</em> Ayuda al Departamento de Orientación a crear una Escuela para Padres.
-              <br>- <em>Social:</em> Fomenta ciudadanos seguros y autónomos.</li>
-          </ul>
+          <span class="action-text">[Acción: Te paras en el centro, postura erguida, manos entrelazadas a la altura de la cintura. Miras directamente a los ojos del jurado principal y esbozas una leve sonrisa de cortesía].</span>
+          <p>"Buenos días, respetado jurado calificador y autoridades presentes. Nuestro equipo de investigación está conformado por María, Marco, Moisés, Juan, Jesús, Diego y mi persona, Zuriel Galicia."</p>
+          <span class="action-text">[Acción: Levantas un poco más el tono de voz, proyectando seguridad para decir el título].</span>
+          <p>"Hoy venimos a defender nuestro Trabajo de Grado titulado: <strong>'Influencia de las creencias parentales en el proceso de individuación del adolescente'</strong>."</p>
+          <span class="action-text">[Acción: Cambias a un tono más reflexivo e invitas a pensar al jurado].</span>
+          <p>"Para adentrarnos en el Capítulo I, el Planteamiento del Problema, debemos comprender que la adolescencia no es solo una transformación física. Es el momento crítico donde el joven debe construir su propia identidad. A este proceso la psicología lo llama 'Individuación'."</p>
+          <p>"Sin embargo, este proceso choca directamente con el entorno familiar. En la U.E.P. General José Laurencio Silva, hemos notado que muchos estudiantes de 5to año tienen serias dificultades para tomar decisiones autónomas. Y al observar a los representantes, escuchamos frases repetitivas como <em>'él todavía no está listo'</em> o <em>'yo sé lo que es mejor para ella'</em>. Son creencias de crianza que nacen del amor, pero que se traducen en sobreprotección o autoritarismo, limitando la libertad psicológica del joven."</p>
+          <p>"Es por esto que nuestra investigación se justifica plenamente: necesitamos saber si estas creencias de los padres están bloqueando o impulsando la identidad de nuestros estudiantes. Al descubrirlo, podremos dotar al Departamento de Orientación de herramientas reales para crear una Escuela para Padres efectiva."</p>
+          <span class="action-text">[Acción: Giras levemente la cabeza y extiendes la mano abierta hacia María].</span>
+          <p>"Para comprender el sustento científico de esta realidad, mi compañera María abordará las bases teóricas."</p>
         </div>
       </div>
-      <div class="tip-box"><p>Gancho para tu apertura: "Buenos días. No investigamos si los padres quieren a sus hijos — eso es obvio. Investigamos si las creencias y la forma en que los crían les permiten convertirse en personas autónomas e independientes, que es exactamente lo que los adolescentes de nuestro 5to año necesitan para la universidad."</p></div>
     </div>
 
     <div id="author-maria" class="author-content">
       <div class="topic-block" style="border-color: #5B8DD9;">
-        <h3>María — Capítulo II: Bases teóricas</h3>
-        <p>Eres la encargada de dar <strong>los fundamentos científicos: quién dijo qué y por qué lo respaldamos en la psicología</strong>.</p>
+        <h3>2. María Castellano — Capítulo II (Bases Teóricas)</h3>
+        <p>Responsabilidad: <strong>Demostrar que leyeron e investigaron</strong>. Entras directo al punto, sin "buenos días". Eres la voz científica.</p>
       </div>
       <div class="card">
-        <div class="card-title">Conceptos que debes dominar al hablar</div>
+        <div class="card-title">Guion Exacto de Defensa</div>
         <div class="content">
-          <ul>
-            <li><strong>Los estilos parentales de Baumrind (1971/1991):</strong> Autoritario (rígido), Permisivo (sin límites) y Autoritativo/Democrático (afecto + comunicación + fomento de autonomía). Este último es el ideal.</li>
-            <li><strong>La segunda individuación de Blos (1967):</strong> El adolescente debe "desidealizar" a sus padres: dejar de verlos como héroes omnipotentes y verlos como personas reales. Es maduración, no rebeldía.</li>
-            <li><strong>Los estatus de identidad de Marcia (1966):</strong> Difusión, Exclusión (toma valores de los padres sin explorar), Moratoria (explora) y Logro de identidad (exploró y se comprometió con su propio ser).</li>
-            <li><strong>Grotevant y Cooper (1986):</strong> La individuación sana combina "individualidad" (tener punto de vista propio) y "conectividad" (mantener el respeto y el vínculo con la familia).</li>
-          </ul>
+          <span class="action-text">[Acción: Das un paso al frente mientras Zuriel retrocede. Asientes levemente con la cabeza hacia ella en señal de agradecimiento por el pase. Miras al jurado].</span>
+          <p>"Nuestra investigación no parte de suposiciones, sino de un robusto marco teórico respaldado por la psicología del desarrollo."</p>
+          <p>"En primer lugar, nos sustentamos en Baumrind (1991), quien clasifica las creencias de crianza en tres estilos principales: el <em>Autoritario</em>, basado en el control estricto; el <em>Permisivo</em>, caracterizado por la ausencia de límites; y el <em>Autoritativo o Democrático</em>, que combina afecto con el fomento activo de la autonomía."</p>
+          <p>"En cuanto al adolescente, nos basamos en el concepto de 'Segunda Individuación' del psicoanalista Peter Blos (1967). Él establece que el adolescente sano debe <em>desidealizar</em> a sus padres; es decir, dejar de verlos como figuras omnipotentes para empezar a verlos como personas reales. Esto no es un acto de rebeldía destructiva, sino un paso biológico y mental obligatorio para madurar."</p>
+          <span class="action-text">[Acción: Usas los dedos de la mano para enumerar, demostrando orden mental].</span>
+          <p>"De igual forma, James Marcia (1966) nos advierte sobre los peligros de una mala crianza a través de sus estatus de identidad. Él explica que el peor escenario para un joven no es explorar y equivocarse, sino caer en lo que él llama 'Exclusión identitaria': cuando el adolescente simplemente adopta los valores y la profesión que sus padres le imponen, sin jamás cuestionarse qué quiere él realmente para su vida."</p>
+          <span class="action-text">[Acción: Giras levemente y extiendes la mano hacia Marco].</span>
+          <p>"Estos fundamentos psicológicos se encuentran, a su vez, respaldados por nuestra legislación y estructurados en nuestras variables, como detallará mi compañero Marco."</p>
         </div>
       </div>
-      <div class="tip-box"><p>Gancho para tu exposición: "Marcia nos enseña que el peor resultado no es el adolescente rebelde — es el que nunca cuestionó nada y adoptó los valores de sus padres por exclusión. Ese joven llega a la adultez sin saber quién es realmente."</p></div>
     </div>
 
     <div id="author-marco" class="author-content">
       <div class="topic-block" style="border-color: #E67E22;">
-        <h3>Marco — Capítulo II: Bases Legales y Sistema de Variables</h3>
-        <p>Tu rol es conectar la teoría con <strong>la ley venezolana y cómo dividimos las variables para medirlas</strong>.</p>
+        <h3>3. Marco Castellano — Capítulo II (Bases Legales y Variables)</h3>
+        <p>Responsabilidad: <strong>Conectar la teoría con la ley y la estructura de la tesis</strong>. Eres el puente hacia la metodología.</p>
       </div>
       <div class="card">
-        <div class="card-title">Conceptos que debes dominar al hablar</div>
+        <div class="card-title">Guion Exacto de Defensa</div>
         <div class="content">
-          <ul>
-            <li><strong>Constitución (CRBV) Art. 78:</strong> Establece que los niños y adolescentes son sujetos plenos de derecho. Tienen derecho a desarrollarse.</li>
-            <li><strong>LOPNNA Art. 32-A:</strong> Consagra el derecho al buen trato en la crianza, alejándose de métodos autoritarios violentos que anulan la autonomía.</li>
-            <li><strong>LOE Art. 15:</strong> La Ley Orgánica de Educación establece que uno de los fines de la educación es el fortalecimiento de la "identidad y la independencia de pensamiento". Por eso nuestra tesis es pertinente en un liceo.</li>
-            <li><strong>Nuestras dos grandes Variables:</strong>
-              <br>1) <em>Creencias Parentales:</em> Se dividen en Autoridad, Sobreprotección, Autonomía, Expectativas y Vínculo Afectivo.
-              <br>2) <em>Proceso de Individuación:</em> Se divide en Autonomía Emocional, Identidad, Independencia Funcional y Vínculo Parental.</li>
-          </ul>
+          <span class="action-text">[Acción: Entras con energía, con una postura muy firme. Hablas con un ritmo pausado para que las leyes suenen importantes].</span>
+          <p>"En el ámbito jurídico, este proceso psicológico del que hablamos es, de hecho, un derecho garantizado. El Artículo 78 de nuestra Constitución establece que los adolescentes son sujetos plenos de derecho, no extensiones de sus padres. De la misma manera, la LOPNNA, en su artículo 32-A, consagra el derecho al buen trato, lo cual invalida legalmente cualquier estilo de crianza autoritario o coercitivo que anule la voluntad del joven."</p>
+          <span class="action-text">[Acción: Haces un ligero ademán como si pusieras dos objetos sobre una mesa, uno en cada mano].</span>
+          <p>"Habiendo establecido el marco legal y teórico, estructuramos nuestro estudio en dos grandes variables:"</p>
+          <p>"La Variable 1, <strong>Creencias Parentales</strong>, que medimos a través de cinco dimensiones: Autoridad, Sobreprotección, Autonomía, Expectativas y Vínculo Afectivo."</p>
+          <p>"Y la Variable 2, el <strong>Proceso de Individuación</strong> del adolescente, evaluada a través de cuatro dimensiones: Autonomía Emocional, Identidad, Independencia Funcional y Vínculo Parental."</p>
+          <span class="action-text">[Acción: Miras al jurado fijamente para hacer la transición].</span>
+          <p>"Para medir esto en la realidad, fue necesario un diseño estadístico riguroso, el cual mi compañero Moisés procederá a explicar en el Marco Metodológico."</p>
         </div>
       </div>
-      <div class="tip-box"><p>Tu pase: "Para entender cómo medimos estas dos grandes variables en la realidad de nuestra institución, los dejo con mi compañero Moisés, quien les detallará la ruta metodológica."</p></div>
     </div>
 
     <div id="author-moises" class="author-content">
       <div class="topic-block" style="border-color: #1D9E75;">
-        <h3>Moisés — Capítulo III: Metodología (Enfoque, Diseño y Muestra)</h3>
-        <p>Eres el escudo del equipo. Debes explicar <strong>cómo estructuramos la investigación científicamente</strong>.</p>
+        <h3>4. Moisés Ospino — Capítulo III (Enfoque, Diseño y Muestra)</h3>
+        <p>Responsabilidad: <strong>Ser el escudo de la tesis</strong>. Tu tono debe ser extremadamente analítico, matemático y formal. Nada de rodeos.</p>
       </div>
       <div class="card">
-        <div class="card-title">Conceptos que debes dominar al hablar</div>
+        <div class="card-title">Guion Exacto de Defensa</div>
         <div class="content">
-          <ul>
-            <li><strong>Enfoque y Tipo:</strong> Es una investigación con enfoque CUANTITATIVO y de nivel DESCRIPTIVO. Buscamos medir de forma sistemática y estadística las variables, sin manipularlas. Es un diseño DE CAMPO porque fuimos directo a nuestra U.E.P. a recoger los datos.</li>
-            <li><strong>Diseño:</strong> No experimental transeccional. Transeccional significa que recogimos los datos en un solo momento de tiempo (abril de 2026).</li>
-            <li><strong>Población y Muestra:</strong> Aplicamos un muestreo no probabilístico intencional. Logramos una muestra de <strong>44 participantes</strong> en total.</li>
-            <li><strong>Distribución de la muestra:</strong> 38 estudiantes (81% de 5to año, distribución equitativa de género) y 6 representantes legales. Reconocemos abiertamente como limitación metodológica que la muestra de representantes fue pequeña, pero los 38 estudiantes nos dan una base sólida.</li>
-          </ul>
+          <span class="action-text">[Acción: Das un paso al frente con mucha seguridad técnica. Tus manos se mueven al ritmo de los conceptos].</span>
+          <p>"Adentrándonos en el Capítulo III, esta investigación se desarrolló bajo un paradigma rigurosamente <strong>cuantitativo</strong>, con un nivel descriptivo y un diseño de campo, no experimental y transeccional, ya que recolectamos los datos directamente en nuestra institución durante el mes de abril del presente año, sin manipular ninguna de las variables."</p>
+          <p>"Para la selección de los participantes, aplicamos un muestreo no probabilístico de tipo intencional, logrando una muestra total de <strong>44 participantes</strong>."</p>
+          <span class="action-text">[Acción: Haces una pausa de un segundo para que el jurado absorba los números. Tono transparente y honesto].</span>
+          <p>"Esta muestra quedó fraccionada en dos grupos: 38 estudiantes (en su gran mayoría de 5to año) y 6 representantes legales. Declaramos abiertamente en nuestra tesis que el tamaño de la muestra de representantes constituye una limitación de acceso a la información, por lo que sus datos representan un estudio exploratorio. Sin embargo, los 38 estudiantes encuestados nos proporcionan una base estadística lo suficientemente robusta para diagnosticar el fenómeno."</p>
+          <span class="action-text">[Acción: Haces el pase de palabra con formalidad técnica hacia Juan].</span>
+          <p>"Para asegurar que los datos extraídos de esta muestra fuesen exactos, aplicamos criterios estrictos de validación, como lo explicará Juan a continuación."</p>
         </div>
       </div>
-      <div class="tip-box"><p>Si el jurado pregunta por qué solo 6 representantes: "Es una limitación que documentamos en el Capítulo I. Fue la cantidad que respondió voluntariamente al instrumento. Sus datos nos sirven como una exploración preliminar de las creencias, mientras que los 38 estudiantes sí nos dan un panorama robusto de la individuación."</p></div>
     </div>
 
     <div id="author-juan" class="author-content">
       <div class="topic-block" style="border-color: #9B59B6;">
-        <h3>Juan — Capítulo III: Instrumento, Validez y Confiabilidad</h3>
-        <p>Tú defiendes la <strong>herramienta que crearon y demuestras que sus resultados no son inventados, sino matemáticamente confiables</strong>.</p>
+        <h3>5. Juan Layet — Capítulo III (Instrumento y Validez)</h3>
+        <p>Responsabilidad: <strong>Demostrar que la encuesta no fue un invento</strong>. Eres el garante de la calidad matemática del proyecto.</p>
       </div>
       <div class="card">
-        <div class="card-title">Conceptos que debes dominar al hablar</div>
+        <div class="card-title">Guion Exacto de Defensa</div>
         <div class="content">
-          <ul>
-            <li><strong>El Instrumento:</strong> Diseñamos un cuestionario con una escala tipo Likert de 5 puntos (del 1: Totalmente en desacuerdo al 5: Totalmente de acuerdo). Se dividió en Sección A (11 ítems para representantes) y Sección B (10 ítems para estudiantes).</li>
-            <li><strong>Validez (Juicio de Expertos):</strong> Nuestro instrumento no fue improvisado. Fue evaluado y aprobado por dos expertos docentes de la institución (Profe. Erwin Quiroz y Profe. Eileen Medero), quienes validaron su coherencia y claridad.</li>
-            <li><strong>Confiabilidad (Alfa de Cronbach):</strong> Procesamos los datos y aplicamos la fórmula de Alfa de Cronbach para medir si la encuesta realmente medía bien. 
-              <br>- Sección A dio <strong>0,972</strong>.
-              <br>- Sección B dio <strong>0,930</strong>.
-              <br>Según George y Mallery, todo valor superior a 0,90 significa que nuestra herramienta tiene una "Consistencia interna Excelente".</li>
-          </ul>
+          <span class="action-text">[Acción: Entras asintiendo. Tono firme. Cuando menciones "Alfa de Cronbach", hazlo con propiedad, como un verdadero investigador].</span>
+          <p>"Para la recolección de los datos, diseñamos un cuestionario bajo la modalidad de escala tipo Likert de 5 puntos, estructurado en dos bloques: la Sección A para los representantes con 11 ítems, y la Sección B para los estudiantes con 10 ítems."</p>
+          <p>"Este instrumento no fue creado al azar. Su validez de contenido fue sometida al riguroso juicio de dos expertos docentes de esta institución: el Profesor Erwin Quiroz y la Profesora Eileen Medero, quienes certificaron su pertinencia y claridad."</p>
+          <span class="action-text">[Acción: Levantas un poco la barbilla, con orgullo por los resultados estadísticos obtenidos].</span>
+          <p>"Además, para comprobar matemáticamente que nuestra encuesta medía lo correcto sin errores, aplicamos la prueba de confiabilidad <strong>Alfa de Cronbach</strong> a los datos recolectados. Los resultados fueron contundentes: la Sección A obtuvo un coeficiente de <strong>0,972</strong> y la Sección B obtuvo <strong>0,930</strong>. Según los baremos internacionales de investigación, cualquier número superior a 0,90 indica una consistencia interna <em>Excelente</em>."</p>
+          <span class="action-text">[Acción: Tono expectante. Cedes la palabra a Jesús].</span>
+          <p>"Con una herramienta estadísticamente perfecta, procedimos a tabular los resultados. Los hallazgos referentes a los representantes serán presentados por mi compañero Jesús."</p>
         </div>
       </div>
-      <div class="tip-box"><p>Tu pase: "Con un instrumento de validez y confiabilidad comprobada, procedimos a analizar los datos. Para mostrarles lo que descubrimos en los representantes, los dejo con mi compañero Jesús."</p></div>
     </div>
 
     <div id="author-jesus" class="author-content">
       <div class="topic-block" style="border-color: #D85A30;">
-        <h3>Jesús — Capítulo IV: Resultados Sección A (Creencias Parentales)</h3>
-        <p>Tú presentas el perfil de los representantes: <strong>qué creen sobre la crianza y la autonomía de sus hijos</strong>.</p>
+        <h3>6. Jesús Ferreira — Capítulo IV (Resultados Sección A)</h3>
+        <p>Responsabilidad: <strong>Contar la historia de los datos de los padres</strong>. Debes hacer que los números cobren sentido humano.</p>
       </div>
       <div class="card">
-        <div class="card-title">Conceptos que debes dominar al hablar</div>
+        <div class="card-title">Guion Exacto de Defensa</div>
         <div class="content">
-          <ul>
-            <li><strong>Autonomía Parental (Media=3,39) — la más alta:</strong> El 66% de los padres está de acuerdo con que el hijo resuelva sus conflictos y asuma las consecuencias de sus errores. Esta es la creencia más sana según la teoría.</li>
-            <li><strong>Sobreprotección (Media=2,92) — la más baja:</strong> La mayoría rechaza tener que acompañar cada decisión del hijo. Pero atención: un 33,3% de los padres percibe que el "entorno es peligroso", lo que puede generar control psicológico por miedo.</li>
-            <li><strong>Autoridad (Media=3,17):</strong> Aquí vimos mucha división. Hay padres muy democráticos y padres muy autoritarios en la misma muestra. Esta mezcla de crianzas explica por qué los alumnos también son tan diferentes entre sí.</li>
-            <li><strong>Expectativas (Media=3,00):</strong> Aunque no les imponen una carrera, 1 de cada 3 padres se preocupa excesivamente por el futuro vocacional de su hijo.</li>
-          </ul>
+          <span class="action-text">[Acción: Si hay diapositivas de gráficos, señálalas sutilmente sin darles la espalda a los jurados. Tono narrativo y analítico].</span>
+          <p>"Ingresando al Capítulo IV, analizamos primero el cerebro del hogar: Las Creencias Parentales de los representantes."</p>
+          <p>"El hallazgo principal en este grupo es que la dimensión que obtuvo la media más alta fue la <strong>Autonomía Parental</strong>, con 3,39 sobre 5. El 66% de nuestros encuestados demostró estar de acuerdo con permitir que sus hijos asuman las consecuencias de sus actos y animarlos a resolver sus propios conflictos antes de que el adulto intervenga."</p>
+          <p>"A la par de esto, la dimensión más baja fue la <strong>Sobreprotección</strong> (2,92). Sin embargo, encendemos una alarma aquí: aunque la media es baja, el 33,3% de los padres percibe que el entorno social actual es demasiado peligroso para dejar que sus hijos decidan solos. Esto, como advertimos en la teoría, puede transformarse rápidamente en control psicológico."</p>
+          <span class="action-text">[Acción: Miras al jurado fijamente para lanzar esta conclusión del grupo A].</span>
+          <p>"En la dimensión de <em>Autoridad</em> encontramos una gran desviación estándar. Esto significa que nuestra comunidad de representantes está altamente polarizada: conviven en la misma proporción padres muy democráticos con padres muy autoritarios."</p>
+          <p>"Ahora bien, ¿cómo absorben los adolescentes esta mezcla de crianzas? Diego revelará estos resultados y las conclusiones finales de nuestra tesis."</p>
         </div>
       </div>
-      <div class="tip-box"><p>Gancho para tu exposición: "En resumen, los representantes de nuestra institución no son villanos autoritarios, pero tampoco son completamente abiertos. Están en un nivel moderado. Ahora, ¿cómo afectó esto a los estudiantes? Mi compañero Diego tiene las respuestas."</p></div>
     </div>
 
     <div id="author-diego" class="author-content">
       <div class="topic-block" style="border-color: #D4537E;">
-        <h3>Diego — Cap IV: Resultados Sección B y Cap V: Conclusiones</h3>
-        <p>Tú eres el <strong>cierre de oro</strong>. Presentas cómo están los estudiantes y das las recomendaciones finales del equipo.</p>
+        <h3>7. Diego Fuenmayor — Capítulo IV (Sección B), Cap V y Cierre</h3>
+        <p>Responsabilidad: <strong>El Remate final</strong>. Tú entregas la conclusión de todo el trabajo y demuestras la utilidad social del proyecto.</p>
       </div>
       <div class="card">
-        <div class="card-title">Conceptos que debes dominar al hablar</div>
+        <div class="card-title">Guion Exacto de Defensa</div>
         <div class="content">
-          <ul>
-            <li><strong>Identidad (Media=3,96) — el hallazgo más positivo de la tesis:</strong> El 76% de los alumnos sabe quién es más allá de su familia, y el 73% eligió su vocación por interés propio. ¡Es un logro identitario excelente!</li>
-            <li><strong>Independencia Funcional (Media=3,74):</strong> Más del 70% gestiona sus tareas sin que sus padres los regañen o se lo recuerden.</li>
-            <li><strong>El punto débil: Autonomía Emocional (Media=3,36):</strong> Es normal a nuestra edad depender emocionalmente de los padres, pero descubrimos algo crítico: <strong>casi 1 de cada 3 alumnos (29%) tiene miedo de dar su opinión en casa o siente que sus padres no confían en él.</strong></li>
-            <li><strong>Conclusiones:</strong> Demostramos que cuando los padres aplican la "Autonomía Parental" (lo que explicó Jesús), el alumno desarrolla una "Identidad" fuerte. </li>
-            <li><strong>Recomendaciones:</strong> Proponemos que la U.E.P. Gral. José Laurencio Silva cree una "Escuela para Padres" para enseñarles a diferenciar entre acompañar y sobreproteger, y enseñar a los adolescentes a expresarse sin dañar a la familia.</li>
-          </ul>
+          <span class="action-text">[Acción: Das un paso al frente con mucha presencia y dominio del espacio. Tono empático pero sumamente seguro].</span>
+          <p>"En la Sección B, encuestamos a los verdaderos protagonistas: los 38 adolescentes. Y los datos revelaron una excelente noticia: la dimensión de <strong>Identidad</strong> obtuvo la calificación más alta de toda la tesis, con 3,96 sobre 5. El 76% de los jóvenes afirmó saber quiénes son más allá de su rol en la familia, y el 73% eligió su vocación basándose en sus intereses propios, alejándose de la exclusión identitaria de la que hablábamos al principio."</p>
+          <p>"Sin embargo, encontramos un freno en el proceso. La dimensión de <strong>Autonomía Emocional</strong> fue la más baja (3,36). Evidenciamos que <strong>casi el 30% de los adolescentes encuestados (1 de cada 3) siente temor de expresar sus opiniones en casa por miedo a represalias</strong>, o sienten que sus padres no confían en ellos."</p>
+          <span class="action-text">[Acción: Cambias de postura, más erguido, como quien da una sentencia científica].</span>
+          <p>"Llegando a las conclusiones de nuestro Capítulo V, demostramos que la teoría se cumple en nuestra institución: Cuando los padres reportan creencias altas en fomento de autonomía, los adolescentes reportan altísimos niveles de identidad e independencia funcional. Pero cuando hay un control o miedo latente, el adolescente se calla."</p>
+          <p>"Por ende, nuestra recomendación práctica e inmediata para la U.E.P. Gral. José Laurencio Silva es la implementación de una Escuela para Padres. Una escuela donde se les enseñe a los representantes la delgada línea entre <em>acompañar</em> y <em>sobreproteger</em>, y donde se restaure la comunicación sin miedo dentro del hogar."</p>
+          <span class="action-text">[Acción: Pausa dramática de un segundo. Mirada compasiva al jurado].</span>
+          <p>"La individuación no ocurre en el silencio. Ocurre cuando el adolescente tiene el permiso psicológico de ser él mismo, sabiendo que, aunque se equivoque, el amor de sus padres no está condicionado a su obediencia ciega."</p>
+          <span class="action-text">[Acción: Das medio paso atrás, te integras con la línea de tus compañeros, haces un gesto leve con la cabeza].</span>
+          <p>"Agradecemos infinitamente su atención y quedamos a su entera disposición para el ciclo de preguntas."</p>
         </div>
       </div>
-      <div class="tip-box"><p>Cierre contundente: "Casi un tercio de nuestra muestra vive en un hogar donde no puede expresar lo que piensa sin temor. Eso no es individuación — eso es silencio. Con nuestro estudio, esperamos ayudar a cambiar esa realidad en nuestra institución. Muchísimas gracias por su atención."</p></div>
     </div>
 
   </div>
 
   <div id="preguntas" class="section">
-    <p style="font-size: 14px; color: var(--color-text-secondary); margin-bottom: 1rem;">Toca cada pregunta para ver la respuesta sugerida. Todo el equipo debe repasar esto.</p>
-
-    <div class="section-label">Preguntas sobre el problema y teoría</div>
+    <p style="font-size: 14px; color: var(--color-text-secondary); margin-bottom: 1rem;">Toca cada pregunta para ver la respuesta. Solo un integrante debe contestar cada pregunta para evitar chocar.</p>
 
     <div class="qa-item">
-      <div class="qa-question" onclick="toggleQA(this)">¿Qué es exactamente la individuación y cómo se diferencia de la rebeldía? <span class="qa-arrow">▼</span></div>
-      <div class="qa-answer">La individuación (Blos, 1967; Erikson, 1968) es el proceso psicológico donde el adolescente construye una identidad propia diferenciada de sus figuras parentales, pero sin perder el vínculo de amor y respeto con ellas. Es un proceso de maduración. La rebeldía, en cambio, es oponerse a todo solo por llevar la contraria, sin formar una identidad auténtica.</div>
+      <div class="qa-question" onclick="toggleQA(this)">¿Por qué estudiaron a los padres si la individuación es de los adolescentes? (Ideal para Zuriel o María) <span class="qa-arrow">▼</span></div>
+      <div class="qa-answer">Porque la individuación no ocurre en el vacío. El joven necesita un "sostén seguro" desde el cual despegar. Si el padre tiene creencias autoritarias o sobreprotectoras, el proceso del adolescente se frena o se vuelve rebelde y disruptivo. Estudiar solo al joven era ver solo la mitad del problema.</div>
     </div>
+    
     <div class="qa-item">
-      <div class="qa-question" onclick="toggleQA(this)">¿Por qué estudiaron a representantes y no solo a los estudiantes? <span class="qa-arrow">▼</span></div>
-      <div class="qa-answer">Porque queríamos ver las dos caras de la moneda. Las creencias de crianza existen en la mente de los padres. Si solo encuestábamos a los alumnos, tendríamos una visión sesgada o "víctima". Al encuestar a ambos (Sección A y Sección B), podemos cruzar los datos.</div>
-    </div>
-
-    <div class="divider"></div>
-    <div class="section-label">Preguntas sobre metodología (Moisés y Juan)</div>
-
-    <div class="qa-item">
-      <div class="qa-question" onclick="toggleQA(this)">¿Por qué solo 6 representantes? ¿No invalida esto la tesis? <span class="qa-arrow">▼</span></div>
-      <div class="qa-answer">No la invalida, pero sí la limita. Reconocemos explícitamente en el Capítulo I y en las conclusiones que n=6 es una limitación en el acceso a la información. Sus resultados son un "estudio exploratorio". Sin embargo, los resultados de los 38 estudiantes (Sección B) sí son estadísticamente robustos y nos permitieron medir la individuación con éxito.</div>
-    </div>
-    <div class="qa-item">
-      <div class="qa-question" onclick="toggleQA(this)">¿Qué es el Alfa de Cronbach que mencionaron? <span class="qa-arrow">▼</span></div>
-      <div class="qa-answer">Es una fórmula estadística que mide la "confiabilidad" o consistencia de una encuesta. Básicamente, asegura que las preguntas están bien redactadas y que los encuestados no respondieron al azar. Al darnos más de 0,90, significa que nuestro instrumento es de calidad "Excelente" para la ciencia.</div>
+      <div class="qa-question" onclick="toggleQA(this)">Si tenían una población grande, ¿por qué solo encuestaron a 6 representantes? (Ideal para Moisés) <span class="qa-arrow">▼</span></div>
+      <div class="qa-answer">Fue un reto de accesibilidad, profesor/a. El instrumento se aplicó de manera digital a los hogares y esa fue la tasa de respuesta voluntaria que obtuvimos. Lo declaramos en la tesis como una "Limitación de acceso". Sus resultados son exploratorios, pero los resultados de los 38 estudiantes sí nos dan el rigor estadístico para cumplir el objetivo del diagnóstico del joven.</div>
     </div>
 
-    <div class="divider"></div>
-    <div class="section-label">Preguntas sobre resultados (Jesús y Diego)</div>
-
     <div class="qa-item">
-      <div class="qa-question" onclick="toggleQA(this)">¿Cuál fue el hallazgo más importante del estudio? <span class="qa-arrow">▼</span></div>
-      <div class="qa-answer">Descubrimos una correspondencia directa: La dimensión más alta de los padres fue la "Autonomía Parental", y la más alta de los alumnos fue la "Identidad". Es decir, los datos comprobaron la teoría de Steinberg: cuando el padre fomenta que el hijo asuma responsabilidades, el hijo desarrolla una identidad mucho más fuerte y segura.</div>
+      <div class="qa-question" onclick="toggleQA(this)">Mencionaron que la Autonomía Emocional fue baja. ¿Eso es un problema grave? (Ideal para Diego o Jesús) <span class="qa-arrow">▼</span></div>
+      <div class="qa-answer">No es grave, es evolutivamente normal. Según la teoría de Steinberg y Silverberg, a nuestra edad (16-17 años), el joven aún necesita validación de sus figuras de apego. La autonomía emocional total es el último paso y suele consolidarse en la universidad o adultez temprana. Lo que sí nos preocupa es el 30% que tiene "miedo" de hablar en casa.</div>
     </div>
+    
     <div class="qa-item">
-      <div class="qa-question" onclick="toggleQA(this)">¿Por qué les dio baja la Autonomía Emocional? ¿Es malo? <span class="qa-arrow">▼</span></div>
-      <div class="qa-answer">No es malo, es evolutivamente normal. Según la teoría de Steinberg y Silverberg, a los 16-17 años (5to año), todavía dependemos emocionalmente de la aprobación de nuestros padres. Ese desapego no se completa sino hasta la etapa universitaria o adultez temprana. Lo que sí nos preocupa es que casi un 30% tiene miedo de hablar en sus casas.</div>
+      <div class="qa-question" onclick="toggleQA(this)">¿Qué es la prueba de Alfa de Cronbach que mencionaron? (Exclusivo para Juan) <span class="qa-arrow">▼</span></div>
+      <div class="qa-answer">Es un coeficiente matemático utilizado en la investigación cuantitativa para medir la consistencia interna de un instrumento (como nuestra encuesta Likert). Es decir, mide que todas las preguntas apunten hacia el mismo objetivo y que los encuestados no hayan respondido al azar. Obtener un 0,972 y un 0,930 garantiza que nuestro instrumento tiene grado de excelencia científica.</div>
     </div>
   </div>
 
   <div id="datos" class="section">
-    <p style="font-size: 14px; color: var(--color-text-secondary); margin-bottom: 1rem;">Los números más importantes que TODOS los 7 deben conocer.</p>
+    <p style="font-size: 14px; color: var(--color-text-secondary); margin-bottom: 1rem;">La munición matemática del equipo. Todo investigador debe saberse su muestra.</p>
 
     <div class="data-grid">
-      <div class="data-stat"><div class="val">44</div><div class="lbl">participantes totales</div></div>
-      <div class="data-stat"><div class="val">38</div><div class="lbl">estudiantes encuestados</div></div>
-      <div class="data-stat"><div class="val">6</div><div class="lbl">representantes encuestados</div></div>
-      <div class="data-stat"><div class="val">0,972</div><div class="lbl">Confiabilidad Sección A (Excelente)</div></div>
-      <div class="data-stat"><div class="val">0,930</div><div class="lbl">Confiabilidad Sección B (Excelente)</div></div>
+      <div class="data-stat"><div class="val">44</div><div class="lbl">Muestra Total</div></div>
+      <div class="data-stat"><div class="val">38</div><div class="lbl">Estudiantes encuestados</div></div>
+      <div class="data-stat"><div class="val">6</div><div class="lbl">Representantes encuestados</div></div>
+      <div class="data-stat"><div class="val">0,972</div><div class="lbl">Confiabilidad Alfa de Cronbach (A)</div></div>
       <div class="data-stat"><div class="val">3,39</div><div class="lbl">Media Autonomía Parental (La más alta - Padres)</div></div>
       <div class="data-stat"><div class="val">3,96</div><div class="lbl">Media Identidad (La más alta - Alumnos)</div></div>
-      <div class="data-stat"><div class="val">3,36</div><div class="lbl">Media Autonomía Emocional (La más baja)</div></div>
-      <div class="data-stat"><div class="val">29%</div><div class="lbl">Alumnos con temor a opinar en casa</div></div>
-    </div>
-
-    <div class="divider"></div>
-    <div class="card">
-      <div class="card-title">Escala Likert y Baremos</div>
-      <div class="content">
-        <ul>
-          <li><strong>1,00 – 1,80:</strong> Muy bajo / Totalmente en desacuerdo</li>
-          <li><strong>1,81 – 2,60:</strong> Bajo / En desacuerdo</li>
-          <li><strong>2,61 – 3,40:</strong> Moderado / Neutral</li>
-          <li><strong>3,41 – 4,20:</strong> Alto / De acuerdo (Aquí están la mayoría de los alumnos)</li>
-          <li><strong>4,21 – 5,00:</strong> Muy alto / Totalmente de acuerdo</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div id="consejos" class="section">
-    <div class="card">
-      <div class="card-title">Organización del Equipo de 7</div>
-      <div class="content">
-        <ul>
-          <li>Como son un equipo grande, el pase de palabra debe ser natural. <strong>No hagan silencios largos</strong>. Cuando uno termina su parte (ej: María), debe nombrar directamente al siguiente (ej: Marco) con la mirada en él y luego volver al jurado.</li>
-          <li><strong>Moisés y Juan</strong> son el escudo metodológico de la tesis. Deben hablar con mucha formalidad y propiedad matemática.</li>
-          <li><strong>Zuriel y Diego</strong> tienen la responsabilidad emocional: Zuriel abre conectando el problema con la realidad del liceo, y Diego cierra demostrando la urgencia de la solución.</li>
-          <li>Mantengan una postura firme y las manos a la vista (no en los bolsillos ni brazos cruzados).</li>
-          <li>Al jurado le gusta que los autores defiendan a sus compañeros. Si a Jesús le hacen una pregunta de historia teórica que no recuerda bien, María puede decir amablemente: <em>"Con permiso del jurado, complementando a mi compañero Jesús, según la base teórica de..."</em></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="warn-box">
-      <p>PELIGRO: El jurado puede intentar acorralarlos con el tema de "Causalidad". Nunca digan en la defensa "Descubrimos que los padres CAUSAN la individuación". Moisés y Juan saben que su diseño "Descriptivo" no puede medir eso. Deben usar la palabra: <strong>"Se corresponden con..."</strong> o <strong>"Tienen una influencia y relación comprobada..."</strong>.</p>
+      <div class="data-stat"><div class="val">30%</div><div class="lbl">Alumnos con temor a opinar en casa</div></div>
     </div>
   </div>
 
